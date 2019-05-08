@@ -5,7 +5,7 @@ docker-alpine-mongodb is a simple Docker image with Alpine Linux and MongoDB. Ve
 * Alpine Linux v3.9
 * MongoDB v4.0.5-r0
 
-[https://pkgs.alpinelinux.org/packages?name=mongodb&branch=v3.9&arch=x86_64](https://pkgs.alpinelinux.org/packages?name=mongodb&branch=v3.9&arch=x86_64)
+Alpine Package List: [https://pkgs.alpinelinux.org/packages?name=mongodb&branch=v3.9&arch=x86_64](https://pkgs.alpinelinux.org/packages?name=mongodb&branch=v3.9&arch=x86_64)
 
 ## Installation
 
@@ -25,7 +25,7 @@ To run MongoDB (You can also use port 27018):
 
 ```$ docker run --name mongo -p 27017:27017 franzvezuli/alpine-mongodb```
 
-To run MongoDB, and also use a datababse from your local machine:
+To run MongoDB, and also use a database from your local machine:
 
 ```$ docker run --name mongo -p 27017:27017 -v /data/db:/data/db franzvezuli/alpine-mongodb```
 
