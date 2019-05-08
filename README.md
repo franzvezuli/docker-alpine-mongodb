@@ -1,14 +1,15 @@
 # Docker Alpine MongoDB
 
 docker-alpine-mongodb is a simple Docker image with Alpine Linux and MongoDB. Versions in this release:
--- Alpine Linux v3.9
--- MongoDB v4.0.5-r0
 
-Package List: https://pkgs.alpinelinux.org/packages?name=mongodb&branch=v3.9&arch=x86_64
+* Alpine Linux v3.9
+* MongoDB v4.0.5-r0
+
+[https://pkgs.alpinelinux.org/packages?name=mongodb&branch=v3.9&arch=x86_64](https://pkgs.alpinelinux.org/packages?name=mongodb&branch=v3.9&arch=x86_64)
 
 ## Installation
 
-First, you must have [Docker](https://www.docker.com/) installed.
+First, you must have Docker installed: https://www.docker.com/
 
 Pull from Docker Hub or clone this repo:
 
