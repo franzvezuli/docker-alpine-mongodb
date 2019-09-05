@@ -11,11 +11,11 @@ Alpine Package List: [https://pkgs.alpinelinux.org/packages?name=mongodb&branch=
 
 First, you must have Docker installed: https://www.docker.com/
 
-Pull from Docker Hub or clone this repo:
+Pull from Docker Hub:
 
 ```$ docker pull franzvezuli/alpine-mongodb```
 
-Then Run:
+Or clone this repo and run the following in the root directory:
 
 ```$ docker build -t franzvezuli/alpine-mongodb .```
 
